@@ -75,11 +75,11 @@ function addMultiTouchListeners(){
 }
 
 // prevent scrolling
-/*
+
 document.body.addEventListener('touchmove', function(event) {
   event.preventDefault();
 }, false);
-*/
+
 
 addMouseListeners();
 addMultiTouchListeners();
