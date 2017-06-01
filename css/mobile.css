@@ -1,7 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
-	overflow: auto;
+    overflow: auto;
 }
 
 wrapper {
@@ -29,11 +29,11 @@ a:hover {
 }
 
 .rita {
-	overflow: hidden;
+    overflow: hidden;
     z-index:1;
     position: fixed;
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
 }
 
 .content {
