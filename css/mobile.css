@@ -3,11 +3,12 @@ html, body {
     height: 100%;
     overflow-y: auto;
     overflow-x:hidden;
-    font-size: 35px;
 }
 
 wrapper {
+    font-size: 40px;
 }
+
 canvas {
       background:rgba(0,0,0,0);
   } /* To remove the scrollbars */
