@@ -8,14 +8,12 @@
   <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 601px)" href="css/desktop.css" />
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon/favicon.ico" >
-<link rel="icon" href="favicon/favicon.gif" type="image/gif" >
   <title>Young Professional</title>
 </head>
 <!-- the inline CSS on the body ("margin: 0px;") removes the extra space
      around the canvas, making it flush with the edge of the page -->
 <body>
-  <img id="showHere" src="img/office/01.jpg" style="display: none;">
+  <img id="showHere" src="img/img01.jpg" style="display: none;">
 <wrapper>
   <div class="rita">
   <canvas id="canvas">
@@ -95,8 +93,8 @@ function onDragEnd() {
   </div>
   <div class="col" style="">
     <div class="text-block">
-      <p>Collaborations</p>
-      <p1><a href="http://www.lak-sa.com/" target="_blank">www.lak-sa.com</a></p1>
+      <p>Motion graphics</p>
+      <p1><a href="https://vimeo.com/user3195255" target="_blank">vimeo</a></p1>
       </br></br>
     </div>
   </div>
@@ -108,7 +106,7 @@ function onDragEnd() {
 </div>
 <div class="work">
   </br>
-    <p>The <span class="showImage" id="office01"><a1>work<a1/></span> is based on a <span class="showImage" id="office02"><a2>deconstructed</a2></span> perception of the office space. The <span class="showImage" id="office03"><a3>catalogue</a3></span> and the signage is referencing this perception in format, material, binding and design.
+    <p>Identity, <span class="showImage" id="img01"><a2>catalogue</a2></span> <span class="showImage" id="img02"><a2>and</a2></span> exhibition <span class="showImage" id="img03"><a2>design</a2></span> for the <span class="showImage" id="img04"><a2>product</a2></span> design graduate students at Beckmans. <span class="showImage" id="img05"><a2>Shown</a2></span> at Stockholm Furniture <span class="showImage" id="img06"><a2>and</a2></span> Light Fair 2017.</p>
 </div>
 <div class="work">
   </br>
@@ -116,16 +114,33 @@ function onDragEnd() {
 </div>
 <div class="work">
   </br>
-    <p>A running competition for athletes who can keep going. Starting at the finish line of all mayor marathons. For sports supplement brand Maurten.
+    <p>Visual Identity and concept for sports fuel brand Maurten. We made an additional distance added to the London Marathon.</p>
 </div>
 <div class="work">
   </br>
-    <p>03 — Beach Volleyball</p>
+    <p>03 — Cat and Box</p>
 </div>
 <div class="work">
   </br>
-    <p>The <span class="showImage" id="office01"><a1>work<a1/></span> is based on a <span class="showImage" id="office02"><a2>deconstructed</a2></span> perception of the office space. The <span class="showImage" id="office03"><a3>catalogue</a3></span> and the signage is referencing this perception in format, material, binding and design.
+    <p><span class="showImage" id="img08"><a2>Art Direction</a2></span>, animation, <span class="showImage" id="img07"><a2>web</a2></span> and concept development for Cat and box. Project by No Studio.</br><p2><a href="http://catandboxgame.com/" target="_blank">catandboxgame.com</a></p2></p>
 </div>
+<div class="work">
+  </br>
+    <p>04 — Beach Volleyball</p>
+</div>
+<div class="work">
+  </br>
+    <p><span class="showImage" id="img09"><a2>Fanzine</a2></span> about <span class="showImage" id="img10"><a2>Beach</a2></span> Volleyball, sports in <span class="showImage" id="img11"><a2>generall</a2></span> and connecting <span class="showImage" id="img12"><a2>subjects</a2></span></p>
+</div>
+<div class="work">
+  </br>
+    <p>05 — Artistbooks</p>
+</div>
+<div class="work">
+  </br>
+    <p><span class="showImage" id="img13"><a2>Artistbooks</a2></span>, posters <span class="showImage" id="img14"><a2>and</a2></span> exhibition <span class="showImage" id="img15"><a2>design</a2></span> for the <span class="showImage" id="img16"><a2>artist</a2></span> <span class="showImage" id="img17"><a2>collective</a2></span> <span class="showImage" id="img18"><a2>Imbalance</a2></span>.</p>
+</div>
+<div></br></br></br></div>
 </body><autoscroll></autoscroll>
 
 
@@ -151,52 +166,99 @@ function onDragEnd() {
 
         /* Lägg till URL till bild som nedan i den ordningen du vill ha. 1, 2, 3 osv. */
 
-        Preload( "img/office/01.jpg", "img/office/02.jpg", "img/office/03.jpg", "img/office/04.jpg", "img/office/05.jpg", "img/office/06.jpg", "img/office/08.jpg", "img/office/09.jpg", "img/office/10.jpg",);
+        Preload( "img/01.jpg", "img/02.jpg", "img/03.jpg", "img/04.jpg", "img/05.jpg", "img/06.jpg", "img/07.gif", "img/08.jpg", "img/09.jpg", "img/10.jpg", "img/11.jpg", "img/12.jpg", "img/13.jpg", "img/14.jpg", "img/15.jpg", "img/16.jpg", "img/17.jpg", "img/18.jpg", "img/19.jpg", "img/20.jpg");
 
         /* Kopiera stycket nedan och ändra namnet baserat på ID:et som du har där uppe (i HTML-koden). Öka på talet i preloadedImages[#].src med en för varje projekt. Separera varje stycke med komma förutom det sista. */
 
-        imageHolder.office01 = {
+        imageHolder.img01 = {
             src: preloadedImages[0].src
         },
 
-        imageHolder.office02 = {
+        imageHolder.img02 = {
             src: preloadedImages[1].src
         },
 
-        imageHolder.office03 = {
+        imageHolder.img03 = {
             src: preloadedImages[2].src
 
         },
 
-        imageHolder.office04 = {
+        imageHolder.img04 = {
             src: preloadedImages[3].src
 
         },
 
-        imageHolder.office05 = {
+        imageHolder.img05 = {
             src: preloadedImages[4].src
 
         },
 
-        imageHolder.office06 = {
+        imageHolder.img06 = {
             src: preloadedImages[5].src
 
         },
 
-        imageHolder.office07 = {
+        imageHolder.img07 = {
             src: preloadedImages[6].src
 
         },
 
-        imageHolder.office08 = {
+        imageHolder.img08 = {
             src: preloadedImages[7].src
 
         },
 
-         imageHolder.office09 = {
+        imageHolder.img09 = {
             src: preloadedImages[8].src
 
+        },
+
+        imageHolder.img10 = {
+            src: preloadedImages[9].src
+
+        },
+
+        imageHolder.img11 = {
+            src: preloadedImages[10].src
+
+        },
+
+        imageHolder.img12 = {
+            src: preloadedImages[11].src
+
+        },
+
+        imageHolder.img13 = {
+            src: preloadedImages[12].src
+
+        },
+
+        imageHolder.img14 = {
+            src: preloadedImages[13].src
+
+        },
+
+        imageHolder.img15 = {
+            src: preloadedImages[14].src
+
+        },
+
+        imageHolder.img16 = {
+            src: preloadedImages[15].src
+
+        },
+
+        imageHolder.img17 = {
+            src: preloadedImages[16].src
+
+        },
+
+        imageHolder.img18 = {
+            src: preloadedImages[17].src
+
         }
+
+
 
 
 
